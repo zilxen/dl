@@ -1,0 +1,52 @@
+body,
+html {
+  background: #fefefe;
+  font-family: "Bitstream Vera Sans", "Lucida Grande", "Lucida Sans Unicode", Lucidux, Verdana, Lucida, sans-serif;
+}
+tr:nth-child(even) {
+  background: #f4f4f4;
+}
+tr:nth-child(odd) {
+  background: #fff;
+}
+th,
+td {
+  padding: 0.1em 0.5em;
+}
+th {
+  text-align: left;
+  font-weight: bold;
+  background: #eee;
+  border-bottom: 1px solid #aaa;
+}
+#list {
+  border: 1px solid #aaa;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.no-hypertext{
+  color: inherit;
+  text-decoration: none;
+}
+a {
+  color: #a33;
+}
+a.blue{
+  color: #4287f5;
+}
+
+a:hover {
+  color: #e33;
+}
+div.desc {
+  width: 97%; 
+  overflow: hidden;
+  padding-bottom: 1em;
+}
+p.footer{
+  text-align: center;
+  text-decoration: none;
+  text-overflow: inherit;
+  font-size: small;
+}
